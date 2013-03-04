@@ -147,7 +147,7 @@ sub get_package_name {
   my $obj = shift;
   my $pck = 'default';
 
-  open my $git_cat, "-|", "git cat-file -p $obj | nkf -Lu | mcpp -P -W 0"
+  open my $git_cat, "-|", "git cat-file -p $obj | mcpp -P -W 0"
     or die "Couldn't open git cat-file: $!";
   while (my $line = <$git_cat>) {
     chomp $line;

@@ -1,3 +1,3 @@
-TMP_DIR=/path/to/tmp/directory
-GIT_REPOSITORY=/path/to/original/git/repository
-HISTORAGE_REPOSITORY=/path/to/historage/repository
+TMP_DIR=/home/klainfo/BugLocalization/git2historage/tmp
+GIT_REPOSITORY=/home/klainfo/PrepareData/eclipse.platform
+HISTORAGE_REPOSITORY=/home/klainfo/PrepareData/eclipse.platform-historage
